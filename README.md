@@ -1,5 +1,8 @@
 # PokedexGen1
 
+<img width="736" height="531" alt="image" src="https://github.com/user-attachments/assets/ed90b1a4-1c35-4a35-b76b-4636d204aa79" />
+
+
 ##  ¿Qué hace? `modelo.py`
 
 Este script entrena un modelo que reconoce Pokémon a partir de imágenes.
