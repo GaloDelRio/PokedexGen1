@@ -49,5 +49,36 @@ python predict_one.py --img ruta/a/tu_imagen.png \
   --ckpt runs/pokemon_resnet18/best_model.pth
 ```
 
+---
 
-O utiliza el link que te da local, donde se presenta una interfaz
+## ¿Qué hace `app.py`?
+
+Interfaz web con **Gradio** para clasificar imágenes de Pokémon usando tu **ResNet18** entrenada.
+
+- Carga el checkpoint `best_model.pth` y el mapa de clases `class_to_idx.json`.
+- Preprocesa la imagen como en entrenamiento (resize + normalize).
+- Hace inferencia (usa **GPU** si hay CUDA, con AMP y `channels_last`).
+- Muestra **Top-5** clases con barras de confianza y un resumen con la predicción.
+
+---
+
+## Cómo ejecutar
+
+1) Asegúrate de tener estos archivos generados por `modelo.py`:
+
+
+2) Instala dependencias (dentro de tu venv):
+```bash
+pip install torch torchvision pillow gradio
+```
+
+3) Ejecuta la app:
+```bash
+python app.py
+```
+
+Abre el navegador en:
+```cpp
+http://127.0.0.1:7860
+```
+
