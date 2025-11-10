@@ -85,3 +85,9 @@ Abre el navegador en:
 http://127.0.0.1:7860
 ```
 
+---
+### Recursos
+
+[Pokemon Images, First Generation(17000 files)](https://www.kaggle.com/datasets/mikoajkolman/pokemon-images-first-generation17000-files?utm_source=chatgpt.com)
+
+
