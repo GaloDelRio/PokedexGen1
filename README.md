@@ -69,8 +69,7 @@ Interfaz web con **Gradio** para clasificar imágenes de Pokémon usando tu **Re
 
 1) Asegúrate de tener estos archivos generados por `modelo.py`:
 
-
-2) Instala dependencias (dentro de tu venv):
+3) Instala dependencias (dentro de tu venv):
 ```bash
 pip install torch torchvision pillow gradio
 ```
@@ -85,9 +84,16 @@ Abre el navegador en:
 http://127.0.0.1:7860
 ```
 
+#### NOTA
+
+En caso de no quere descargar todas las 170,000 imagenes de pokemones usa el siguiente link para conseguir el archivo (`best_model.pth`) y agregalo a tu carpeta 
+
+[best_model SHORTCUT](https://drive.google.com/drive/folders/1CjG6X_nS69VEpHmwcYX_XnIZn1VlljLp?usp=sharing)
+
+
 ---
 ### Recursos
 
-[Pokemon Images, First Generation(17000 files)](https://www.kaggle.com/datasets/mikoajkolman/pokemon-images-first-generation17000-files?utm_source=chatgpt.com)
+[Pokemon Images, First Generation(17000 files)](https://www.kaggle.com/datasets/mikoajkolman/pokemon-images-first-generation17000-files)
 
 
